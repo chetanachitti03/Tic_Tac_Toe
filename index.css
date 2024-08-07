@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(abstract-background-images-wallpaper-ai-generated_643360-13825.avif);
+    background-size: cover;
+  }
+  
+  section {
+    text-align: center;
+  }
+  
+  .game--title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .game--container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  .game--status {
+    margin-bottom: 20px;
+  }
+  
+  .game--restart,
+  .play--friend,
+  .play--bot {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
